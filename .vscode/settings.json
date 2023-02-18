@@ -1,0 +1,17 @@
+{
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#000",
+    "titleBar.inactiveForeground": "#000000CC",
+    "titleBar.activeBackground": "#3EC1D3",
+    "titleBar.inactiveBackground": "#555555",
+    "tab.activeBackground": "#ffcb8833",
+    "list.activeSelectionBackground": "#ffcb8833",
+    "list.inactiveSelectionBackground": "#ffcb8833"
+  },
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ]
+}

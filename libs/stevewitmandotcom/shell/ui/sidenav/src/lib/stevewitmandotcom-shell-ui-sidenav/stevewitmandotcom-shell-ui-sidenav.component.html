@@ -1,0 +1,38 @@
+<mat-sidenav-container>
+  <mat-sidenav
+    #drawer
+    fixedInViewport
+    [attr.role]="(isHandset) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset) ? 'over' : 'side'"
+  >
+    <mat-nav-list>
+      <!-- close sidenav on click only if mobile otherwise leave open on desktop view
+       ... this is done with (click)="isHandset && drawer.close()" -->
+      <a
+        mat-list-item
+        class="mat-list-item"
+        (click)="isHandset && drawer.close()"
+        routerLinkActive="link-active"
+        ><span class="list-item">About</span></a
+      >
+      <mat-divider class="divider-dark"></mat-divider>
+      <a
+        href="https://ngnuggets.com"
+        mat-list-item
+        class="mat-list-item"
+        (click)="isHandset && drawer.close()"
+        >
+      <img src="./assets/images/ngnuggetsdotcom.png" class="ngnuggets-image" />
+      </a>
+
+    </mat-nav-list>
+
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <!-- Main Content Area -->
+    <div class="page-container" [ngClass]="{ 'page-container-handset': isHandset }">
+
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

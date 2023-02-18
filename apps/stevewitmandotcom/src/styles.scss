@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --color-primary: #039BE5;
+  --color-primary-light: #4FC3F7;
+  --color-primary-very-light: #039ae511;
+  --color-accent: #FFD600;
+  --color-warn: #FF6D00;
+  --color-warn-light: #FF6D0088;
+  --color-warn-very-light: #FF6D0011;
+  --color-red: #CB2B39;
+
+  --color-gray-1: #101010;
+  --color-gray-2: #202020;
+  --color-gray-3: #303030;
+  --color-gray-4: #404040;
+  --color-gray-5: #505050;
+  --color-gray-6: #606060;
+  --color-gray-7: #707070;
+  --color-gray-8: #808080;
+  --color-gray-9: #909090;
+  --color-gray-A: #A0A0A0;
+  --color-gray-B: #B0B0B0;
+  --color-gray-C: #C0C0C0;
+  --color-gray-D: #D0D0D0;
+  --color-gray-E: #E0E0E0;
+  --color-gray-F: #F0F0F0;
+}
+
+// CSS Reset
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+  background-color: #EEEEEE;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0px;
+}

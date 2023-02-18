@@ -19,7 +19,10 @@
           "apps/stevewitmandotcom/src/favicon.ico",
           "apps/stevewitmandotcom/src/assets"
         ],
-        "styles": ["apps/stevewitmandotcom/src/styles.scss"],
+        "styles": [
+          "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+          "apps/stevewitmandotcom/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {

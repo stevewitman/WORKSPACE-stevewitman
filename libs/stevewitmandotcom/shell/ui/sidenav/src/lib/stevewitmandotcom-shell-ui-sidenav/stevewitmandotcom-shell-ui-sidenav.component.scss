@@ -1,0 +1,91 @@
+// Sidenav Styles
+.mat-sidenav {
+  width: 215px;
+  margin-top: 56px;
+  border: none;
+  background: var(--color-gray-1);
+  color: yellow;
+}
+
+.mat-nav-list {
+  padding-left: 0px;
+}
+
+.mat-list-item {
+  color: var(--color-gray-F);
+  &:hover {
+    background-color: var(--color-gray-3);
+  }
+}
+
+.list-item {
+  color: var(--color-gray-F);
+  padding-left: 6px;
+}
+
+.link-active {
+  color: var(--color-primary-light);
+  &:hover {
+    color: var(--color-primary-light);
+  }
+}
+
+.icon {
+  padding-left: 2px;
+  padding-right: 6px;
+  color: #606060;
+}
+
+.sub-menu {
+  padding-left: 50px;
+}
+
+.menu-button {
+  margin-left: 12px;
+  margin-bottom: 2px;
+}
+
+hr {
+  border-top: 1px solid #ccc;
+}
+
+.divider-dark {
+  border-top-color: var(--color-gray-3);
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.angularnuggets-image {
+  height: 28px;
+  width: auto;
+  padding-left: 4px;
+  // @media screen and (max-width: 599px) {
+  //   height: 28px;
+  // }
+}
+
+.ngnuggets-image {
+  height: 22px;
+  width: auto;
+  padding-left: 6px;
+  // @media screen and (max-width: 599px) {
+  //   height: 28px;
+  // }
+}
+
+// PAGE STYLES
+mat-sidenav-content {
+  padding-top: 56px;
+}
+
+.page-container {
+  position: relative; // used for route animation
+}
+
+.page-container>* {
+  display: block;
+}
+
+.page-container-handset {
+  padding: 0px 0px 10px 0px;
+}

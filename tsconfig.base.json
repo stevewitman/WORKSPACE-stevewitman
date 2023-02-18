@@ -14,7 +14,17 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@stevewitman/stevewitmandotcom/shell/feature": [
+        "libs/stevewitmandotcom/shell/feature/src/index.ts"
+      ],
+      "@stevewitman/stevewitmandotcom/shell/ui/header": [
+        "libs/stevewitmandotcom/shell/ui/header/src/index.ts"
+      ],
+      "@stevewitman/stevewitmandotcom/shell/ui/sidenav": [
+        "libs/stevewitmandotcom/shell/ui/sidenav/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
