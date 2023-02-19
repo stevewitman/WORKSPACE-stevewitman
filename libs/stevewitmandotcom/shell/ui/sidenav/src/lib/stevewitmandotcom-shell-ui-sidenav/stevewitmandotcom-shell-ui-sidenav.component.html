@@ -12,8 +12,8 @@
         mat-list-item
         class="mat-list-item"
         (click)="isHandset && drawer.close()"
-        routerLinkActive="link-active"
-        ><span class="list-item">About</span></a
+        [routerLink]="['about']"
+        ><span class="list-item" routerLinkActive="link-active">About</span></a
       >
       <mat-divider class="divider-dark"></mat-divider>
       <a
@@ -32,7 +32,7 @@
   <mat-sidenav-content>
     <!-- Main Content Area -->
     <div class="page-container" [ngClass]="{ 'page-container-handset': isHandset }">
-
+      <router-outlet></router-outlet>
     </div>
   </mat-sidenav-content>
 </mat-sidenav-container>

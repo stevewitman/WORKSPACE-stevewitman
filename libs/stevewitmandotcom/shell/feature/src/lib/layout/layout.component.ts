@@ -16,10 +16,7 @@ import { StevewitmandotcomShellUiSidenavComponent } from '@stevewitman/stevewitm
   styleUrls: ['./layout.component.scss'],
 })
 export class LayoutComponent implements AfterViewInit {
-
-  constructor(
-    private changeDetectorRef: ChangeDetectorRef,
-  ) {}
+  constructor(private changeDetectorRef: ChangeDetectorRef) {}
 
   ngAfterViewInit() {
     this.changeDetectorRef.detectChanges();

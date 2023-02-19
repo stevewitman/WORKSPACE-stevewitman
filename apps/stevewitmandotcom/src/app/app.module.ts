@@ -1,19 +1,17 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { RouterModule } from '@angular/router';
-
-import { StevewitmandotcomShellFeatureModule } from '@stevewitman/stevewitmandotcom/shell/feature'
 
 import { AppComponent } from './app.component';
-import { appRoutes } from './app.routes';
+import { AppRoutingModule } from './app-routing.module';
+import { StevewitmandotcomShellFeatureModule } from '@stevewitman/stevewitmandotcom/shell/feature'
 
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
+    AppRoutingModule,
     StevewitmandotcomShellFeatureModule,
   ],
   providers: [],

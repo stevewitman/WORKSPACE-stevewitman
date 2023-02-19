@@ -15,6 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@stevewitman/stevewitmandotcom/about/feature": [
+        "libs/stevewitmandotcom/about/feature/src/index.ts"
+      ],
       "@stevewitman/stevewitmandotcom/shell/feature": [
         "libs/stevewitmandotcom/shell/feature/src/index.ts"
       ],

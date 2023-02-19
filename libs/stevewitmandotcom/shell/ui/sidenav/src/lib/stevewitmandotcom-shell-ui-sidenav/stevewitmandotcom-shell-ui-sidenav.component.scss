@@ -13,6 +13,7 @@
 
 .mat-list-item {
   color: var(--color-gray-F);
+  color: var(--color-primary-light);
   &:hover {
     background-color: var(--color-gray-3);
   }
@@ -25,9 +26,6 @@
 
 .link-active {
   color: var(--color-primary-light);
-  &:hover {
-    color: var(--color-primary-light);
-  }
 }
 
 .icon {
