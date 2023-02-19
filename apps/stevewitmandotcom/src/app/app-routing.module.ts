@@ -5,8 +5,8 @@ const routes: Routes = [
   {
     path: 'about',
     loadChildren: () =>
-      import('@stevewitman/stevewitmandotcom/about/feature').then(
-        (m) => m.stevewitmandotcomAboutFeatureRoutes
+      import('@stevewitman/stevewitmandotcom/about/feat-about-shell').then(
+        (m) => m.stevewitmandotcomAboutFeatAboutShellRoutes
       ),
   },
 ];

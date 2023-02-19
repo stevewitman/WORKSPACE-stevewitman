@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'stevewitmandotcom-about-feature',
+  displayName: 'stevewitmandotcom-about-feat-about-shell',
   preset: '../../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
@@ -10,7 +10,7 @@ export default {
     },
   },
   coverageDirectory:
-    '../../../../coverage/libs/stevewitmandotcom/about/feature',
+    '../../../../coverage/libs/stevewitmandotcom/about/feat-about-shell',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },
