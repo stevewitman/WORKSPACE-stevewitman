@@ -18,8 +18,8 @@
       "@stevewitman/stevewitmandotcom/about/feat-about-shell": [
         "libs/stevewitmandotcom/about/feat-about-shell/src/index.ts"
       ],
-      "@stevewitman/stevewitmandotcom/shell/feature": [
-        "libs/stevewitmandotcom/shell/feature/src/index.ts"
+      "@stevewitman/stevewitmandotcom/shell/feat-app-shell": [
+        "libs/stevewitmandotcom/shell/feat-app-shell/src/index.ts"
       ],
       "@stevewitman/stevewitmandotcom/shell/ui/header": [
         "libs/stevewitmandotcom/shell/ui/header/src/index.ts"

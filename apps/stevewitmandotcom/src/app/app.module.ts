@@ -4,15 +4,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { StevewitmandotcomShellFeatureModule } from '@stevewitman/stevewitmandotcom/shell/feature'
-
+import { StevewitmandotcomShellFeatAppShellComponent } from '@stevewitman/stevewitmandotcom/shell/feat-app-shell'
 @NgModule({
   declarations: [AppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    StevewitmandotcomShellFeatureModule,
+    StevewitmandotcomShellFeatAppShellComponent,
   ],
   providers: [],
   bootstrap: [AppComponent],
