@@ -1,7 +1,7 @@
 /* eslint-disable */
 export default {
-  displayName: 'stevewitmandotcom-shell-ui-header',
-  preset: '../../../../../jest.preset.js',
+  displayName: 'stevewitmandotcom-shell-ui-layout-sidenav',
+  preset: '../../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
   globals: {
     'ts-jest': {
@@ -10,7 +10,7 @@ export default {
     },
   },
   coverageDirectory:
-    '../../../../../coverage/libs/stevewitmandotcom/shell/ui/header',
+    '../../../../coverage/libs/stevewitmandotcom/shell/ui-layout-sidenav',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': 'jest-preset-angular',
   },

@@ -6,18 +6,13 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 
 @Component({
-  selector: 'stevewitman-stevewitmandotcom-shell-ui-header',
+  selector: 'stevewitman-stevewitmandotcom-shell-ui-layout-header',
   standalone: true,
-  imports: [
-    CommonModule,
-    MatButtonModule,
-    MatIconModule,
-    MatToolbarModule,
-  ],
-  templateUrl: './stevewitmandotcom-shell-ui-header.component.html',
-  styleUrls: ['./stevewitmandotcom-shell-ui-header.component.scss'],
+  imports: [CommonModule, MatButtonModule, MatIconModule, MatToolbarModule],
+  templateUrl: './stevewitmandotcom-shell-ui-layout-header.component.html',
+  styleUrls: ['./stevewitmandotcom-shell-ui-layout-header.component.scss'],
 })
-export class StevewitmandotcomShellUiHeaderComponent {
+export class StevewitmandotcomShellUiLayoutHeaderComponent {
   @Input() drawerOpen: boolean | undefined = false;
   @Output() toggleDrawer = new EventEmitter();
 }

@@ -21,11 +21,11 @@
       "@stevewitman/stevewitmandotcom/shell/feat-app-shell": [
         "libs/stevewitmandotcom/shell/feat-app-shell/src/index.ts"
       ],
-      "@stevewitman/stevewitmandotcom/shell/ui/header": [
-        "libs/stevewitmandotcom/shell/ui/header/src/index.ts"
+      "@stevewitman/stevewitmandotcom/shell/ui-layout-header": [
+        "libs/stevewitmandotcom/shell/ui-layout-header/src/index.ts"
       ],
-      "@stevewitman/stevewitmandotcom/shell/ui/sidenav": [
-        "libs/stevewitmandotcom/shell/ui/sidenav/src/index.ts"
+      "@stevewitman/stevewitmandotcom/shell/ui-layout-sidenav": [
+        "libs/stevewitmandotcom/shell/ui-layout-sidenav/src/index.ts"
       ]
     }
   },
