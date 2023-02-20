@@ -15,17 +15,17 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@stevewitman/stevewitmandotcom/about/feat-about-shell": [
-        "libs/stevewitmandotcom/about/feat-about-shell/src/index.ts"
+      "@sw/swdc/about/feat-about-shell": [
+        "libs/swdc/about/feat-about-shell/src/index.ts"
       ],
-      "@stevewitman/stevewitmandotcom/shell/feat-app-shell": [
-        "libs/stevewitmandotcom/shell/feat-app-shell/src/index.ts"
+      "@sw/swdc/shell/feat-layout": [
+        "libs/swdc/shell/feat-layout/src/index.ts"
       ],
-      "@stevewitman/stevewitmandotcom/shell/ui-layout-header": [
-        "libs/stevewitmandotcom/shell/ui-layout-header/src/index.ts"
+      "@sw/swdc/shell/ui-layout-header": [
+        "libs/swdc/shell/ui-layout-header/src/index.ts"
       ],
-      "@stevewitman/stevewitmandotcom/shell/ui-layout-sidenav": [
-        "libs/stevewitmandotcom/shell/ui-layout-sidenav/src/index.ts"
+      "@sw/swdc/shell/ui-layout-sidenav": [
+        "libs/swdc/shell/ui-layout-sidenav/src/index.ts"
       ]
     }
   },

@@ -1,0 +1,23 @@
+<mat-toolbar class="main-toolbar">
+
+  <!-- ***** SIDENAV TOGGLE BUTTON ***** -->
+  <button
+    mat-icon-button
+    (click)="toggleDrawer.emit(drawerOpen)"
+    aria-label="Toggle sidenav button"
+    class="sidenav-toggle-button"
+  >
+    <mat-icon aria-label="Side nav toggle icon" *ngIf="!drawerOpen"
+      >menu</mat-icon
+    >
+    <mat-icon aria-label="Side nav toggle icon" *ngIf="drawerOpen"
+      >menu_open</mat-icon
+    >
+  </button>
+
+  <!-- ***** SIDENAV LOGO/TITLE ***** -->
+  <span class="logo">Steve Witman</span>
+
+  <!-- ***** SIDENAV AUTH/PROFILE ***** -->
+
+</mat-toolbar>
