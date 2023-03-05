@@ -18,6 +18,9 @@
       "@sw/swdc/about/feat-about-shell": [
         "libs/swdc/about/feat-about-shell/src/index.ts"
       ],
+      "@sw/swdc/contact/feat-contact-shell": [
+        "libs/swdc/contact/feat-contact-shell/src/index.ts"
+      ],
       "@sw/swdc/shell/feat-layout": [
         "libs/swdc/shell/feat-layout/src/index.ts"
       ],

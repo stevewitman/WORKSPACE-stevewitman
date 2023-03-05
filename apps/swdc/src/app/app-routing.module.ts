@@ -9,6 +9,13 @@ const routes: Routes = [
         (m) => m.swdcAboutFeatAboutShellRoutes
       ),
   },
+  {
+    path: 'contact',
+    loadChildren: () =>
+      import('@sw/swdc/contact/feat-contact-shell').then(
+        (m) => m.swdcContactFeatContactShellRoutes
+      ),
+  },
 ];
 
 @NgModule({

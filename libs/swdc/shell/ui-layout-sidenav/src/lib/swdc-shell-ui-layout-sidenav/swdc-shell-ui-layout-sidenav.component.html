@@ -15,6 +15,13 @@
         [routerLink]="['about']"
         ><span class="list-item" routerLinkActive="link-active">About</span></a
       >
+      <a
+        mat-list-item
+        class="mat-list-item"
+        (click)="isHandset && drawer.close()"
+        [routerLink]="['contact']"
+        ><span class="list-item" routerLinkActive="link-active">Contact</span></a
+      >
       <mat-divider class="divider-dark"></mat-divider>
       <a
         href="https://ngnuggets.com"

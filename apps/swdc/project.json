@@ -15,10 +15,7 @@
         "polyfills": ["zone.js"],
         "tsConfig": "apps/swdc/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": [
-          "apps/swdc/src/favicon.ico",
-          "apps/swdc/src/assets"
-        ],
+        "assets": ["apps/swdc/src/favicon.ico", "apps/swdc/src/assets"],
         "styles": [
           "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
           "apps/swdc/src/styles.scss"
@@ -74,10 +71,7 @@
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": [
-          "apps/swdc/**/*.ts",
-          "apps/swdc/**/*.html"
-        ]
+        "lintFilePatterns": ["apps/swdc/**/*.ts", "apps/swdc/**/*.html"]
       }
     },
     "test": {
